@@ -6,6 +6,7 @@ body {
     margin: 0;
     padding: 0;
     background: url(/img/cover.jpg) rgba(0, 0, 0, 0.397);
+    background-size: 10000px;
     background-blend-mode: multiply;
     color: white;
 }
@@ -76,4 +77,12 @@ body {
 .btn:hover {
     background: #ed1c23cc;;
     border: 2px solid transparent;
+}
+
+.container {
+    border: 2px solid white;
+    margin: 106px 1000px;
+    padding: 75px;
+    width: 33%;
+    border-radius: 28px;
 }
