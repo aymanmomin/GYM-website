@@ -6,7 +6,6 @@ body {
     margin: 0;
     padding: 0;
     background: url(/img/cover.jpg) rgba(0, 0, 0, 0.397);
-    background-size: 10000px;
     background-blend-mode: multiply;
     color: white;
 }
@@ -85,4 +84,26 @@ body {
     padding: 75px;
     width: 33%;
     border-radius: 28px;
+}
+
+.form-group input {
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    display: block;
+    width: 500px;
+    padding: 1px;
+    border: 2px solid transparent;
+    border-radius: 8px;
+    font-size: 25px;
+    margin: 11px auto;
+}
+
+.container h1 {
+    text-align: center;
+}
+
+.container button {
+    display: block;
+    width: 500px;
+    margin: 15px auto;
 }
