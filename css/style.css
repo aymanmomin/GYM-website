@@ -2,6 +2,49 @@
 body {
     margin: 0;
     padding: 0;
-    background: url(/img/cover.jpg);
+    background: url(/img/cover.jpg) rgba(0, 0, 0, 0.397);
+    background-blend-mode: multiply;
     color: white;
+}
+
+.left {
+    border: 2px solid red;
+    display: inline-block;
+    position: absolute;
+    top: 20px;
+    left: 34px;
+}
+
+.mid {
+    border: 2px solid yellow;
+    display: block;
+    width: 33%;
+    margin: 20px auto;
+}
+
+.navbar {
+    display: inline-block;
+}
+
+.navbar li {
+    display: inline-block;
+    font-size: 25px;
+}
+
+.navbar li a {
+    color: white;
+    text-decoration: none;
+    padding: 34px 23px;
+}
+
+.navbar li a:hover , .navbar li a.active {
+    color: rgba(240, 240, 240, 0.767);
+}
+
+.right {
+    border: 2px solid green;
+    display: inline-block;
+    position: absolute;
+    top: 20px;
+    right: 34px;
 }
